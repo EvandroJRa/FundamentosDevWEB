@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+    <style>
+        body{
+            margin: 1%;
+        }
+        .container{
+            display: grid;
+        }
+        header{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: rgb(0, 0, 0);
+        }    
+        .menu{
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+        .imagem{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal{
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: rgb(3, 0, 0);
+            color: white;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            color: #506e6a;
+
+        }
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid black 1px;
+        }
+        li{
+            float: left;
+        }
+        a:houver{
+            background-color: brown;
+            color: white;
+        }
+        /* dispossitivos moveis*/
+        /*/@media only screen and(max-width: 767px){
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+        .imagem{
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+        .principal{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            
+        }*/    
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">AULA 4</h1>
+        <br>
+    </header>
+ 
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">BIOGRAFIA</a></li>
+            <li><a href="obras.htm">OBRAS</a></li>
+            <li><a href="curioidades.html">CURIOSIDADES</a></li>         
+        </ul>
+
+    </nav>
+          
+    <div class="container wrapper">
+            <aside class="imagem">
+                <img src="placeHolder.png" alt="placeHolder">
+                <div class="infos">
+                    <p><strong>Ocupação:</strong>xxxxxxxxxxxxx</p>
+                    <p><strong>Data de xxxxxxx:</strong>111111</p>
+                    <p><strong>Data de xxxxxxx:</strong>222222</p>
+                </div>
+            </aside>
+            <section class="principal">
+                <h1> AULA 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, consequuntur voluptates enim adipisci natus error saepe sequi iure earum quaerat sapiente officia laudantium quos commodi alias aspernatur cupiditate ad numquam! Rem, error nulla? Ipsum, molestiae minus ducimus fugit temporibus animi illo soluta ratione id suscipit impedit facere exercitationem dicta aperiam quia quae odio commodi deserunt iste delectus sapiente alias fuga officiis quis? Harum nesciunt dolorem perspiciatis libero iste magni, at earum? Quo laborum, saepe molestias iste amet nihil itaque odio, aperiam eveniet voluptatem minus excepturi aspernatur tempora ratione, libero blanditiis sequi similique nemo distinctio numquam ea! Non iure quo alias incidunt a modi sunt perferendis iste adipisci cupiditate. Quia nam repellat rerum autem quasi quos animi exercitationem, asperiores alias optio repellendus ea. Perferendis excepturi ut, soluta adipisci sapiente, consequatur cupiditate at ad nisi cum in, dignissimos itaque modi accusamus molestias? Facilis consequatur impedit laborum in eligendi dolorem doloremque beatae quam optio ut expedita quaerat neque nam amet, nisi molestiae iusto autem eveniet repellat dolor eum. Repudiandae quo sint animi impedit autem dolorum dicta nesciunt minima mollitia nam inventore iusto, labore rerum nihil qui consectetur eum et doloremque architecto cumque optio voluptatem deserunt? Illo nam dolor repudiandae consectetur id corrupti velit debitis rem placeat pariatur porro facere magni eius ipsam facilis, ex nihil consequatur! Debitis quae officia et provident voluptates mollitia nostrum illum vitae blanditiis minima quidem obcaecati asperiores fugiat a officiis cumque aliquid, sint consectetur qui. A eligendi reiciendis maiores assumenda autem et libero quis molestiae reprehenderit? Consectetur, ratione aliquid.</p>
+            </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins didáticoss</h1>
+    </footer>         
+    </body>
